@@ -20,3 +20,4 @@ Route::get('/', function () {
 Route::resource('post','PostController');
 Route::get('/posts','PostController@index');
 Route::post('/replycomment','CommentController@replyComment');
+
